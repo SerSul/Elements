@@ -17,9 +17,7 @@ private:
 
 public:
     Element();
-    // Конструктор для инициализации элемента с рандомными позицией и скоростью
     Element(int screenWidth, int screenHeight);
-    // Конструктор для инициализации элемента с заданными позицией, скоростью и цветом
     Element(Vector2 position, Vector2 velocity, Color hue);
 
     // Притягивает элемент к указанной позиции с заданным множителем
